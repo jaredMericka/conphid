@@ -1,0 +1,38 @@
+[g]Threads[/g]
+
+Threads, in most cases, will simply consist of a hash against which posts can be made. Options are available for controlling access to threads, however. These options will need to be invoked by an administrator or moderator.
+
+[y]Navigation[/y]
+To navigate between threads, use the "[b]>go[/b]" command followed by the thread's hash (e.g., "[b]>go 0919fe44fdbbd233e5e2e8587006b7b2[/b]" will navigate to this thread). Instead of a hash, a string of characters can be used to navigate to the hash of those characters (e.g., "[b]>go threads[/b]" will navigate to this thread, too because "0919fe44fdbbd233e5e2e8587006b7b2" is the md5 hash of the string "threads").
+
+	[c]Feed[/c] ([b](fed)[/b])
+	The feed is best way to publicly expose a thread to the [g]Con(phi)[/g][g_]d[/g_] community. The feed is visible to every [g]Con(phi)[/g][g_]d[/g_] user and the "[b]>bump[/b]" command bumps the current thread to the top of the feed for everyone to see. A thread can only be bumped once every 24 hours so optimal exposure may require careful timing.
+
+	[c]Links[/c] ([w](lnk)[/w])
+	The links system allows threads to be linked together and is designed to allow easy navigation between threads with related content. A thread's links can be viewed by clicking the ([w](lnk)[/w]) tab in the panel to the top right of the main panel.
+
+	[c]Bookmarks[/c] ([r](bkm)[/r])
+	To bookmark a thread, simply run the command "[b]>bookmark[/b]" and the current thread will be added to your bookmarks. Bookmarks are accessible by clicking the ([r](bkm)[/r]) tab in the panel to the top right of the main panel. A bookmark icon will also appear beside the thread hash if you have bookmarked the current thread.
+
+	[c]Subscriptions[/c] ([y](sub)[/y])
+	You can subscribe to a thread by entering the "[b]>subscribe[/b]" command. Subscribed threads will send you a notification when new posts are made therein. If you are in a thread that you are currently subscribed to, a bell icon will appear beside the thread hash ([y](sub)[/y]).
+
+[y]Moderators[/y]
+A thread may have a moderator assigned to it to watch over the thread and make sure it continues to be useful and serve its intended purpose. In order to do this, a thread's moderator is granted special privileges that only apply inside their threads. If a thread has a moderator, the icon ((mod)) will appear beside the thread's hash. Hovering over the icon with your mouse will reveal the name of the moderator.
+
+Moderators can only be appointed by admins but the existing moderator is able to appoint a new moderator (although doing so will relieve them of their moderator status).
+
+[y]Locks[/y]
+Threads can be locked selectively or absolutely to prevent unwanted posting or commands being run against them. Threads with any kind of restrictions will have a padlock icon beside their hash. The padlock may be open ([r](ulk)[/r]) or closed ([r](lck)[/r]) depending on whether or not your account permits posting in the thread. Below are the types of thread locks available:
+
+	[c]Locked[/c] ([r](lck)[/r])
+	Locked threads cannot be posted in by anyone except the thread's moderator.
+
+	[c]Leveled[/c] ([y](lck) (*)n[/y])
+	Leveled threads set a minimum account level required by anyone wishing to post in the thread or run commands against it.
+
+	[c]Sealed[/c] ([b](lck) (key)[/b])
+	Sealed threads can only be posted in by accounts which have posted in the thread prior to it becoming sealed.
+
+	[c]Hidden[/c] ([r](hid)[/r])
+	The hidden thread property works differently to other locks; if a thread is hidden, only users who are able to post in the thread are able to view its content.

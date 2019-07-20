@@ -1,0 +1,11 @@
+[g]Posts[/g]
+
+Posts on [g]Con(phi)[/g][g_]d[/g_] are recorded with a timestamp and your current name. Changing your name via Settings will NOT change the name associated with your previous posts. This means a change in name can be used as a proper disassociation from your past posts. You will, however, retain the right to edit your old posts and participate in sealed threads that contain posts saved against an old name (as long as your account level permits such actions).
+
+Every post has an ID (shown underneath the post body to the left of the timestamp). The post's ID is used to reference the post in a number of commands (e.g., editing, replying etc.) and can be clicked on to pre-load the submission box the a reply command for that post.
+
+Replying to a post will preface your post with "re:" followed by the post ID, notify the user who made the post you're replying to and attach an icon ([x](rep)[/x]) with the number of replies in the metadata of the replied to post.
+
+Editing a post will place an icon ([x](edt)[/x]) in the post's metadata to signify that the post has been edited and replies to the post may no longer be relevant or have the same context as they did when first made. An edit history of individual posts is not available to other users but the information is kept for moderation and administrative purposes (dispute resolution etc.).
+
+Urls in posts will automatically become links. Md5 hashes in posts will become links to the tread with that hash if the hash is immediately preceded by a "#" character.

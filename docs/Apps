@@ -1,0 +1,7 @@
+[g]Apps[/g]
+
+Apps provide extensions to [g]Con(phi)[/g][g_]d[/g_]'s capabilities. They have their own commands and the ability to capture, use, modify or process in some other way, the inputted text or commands to [g]Con(phi)[/g][g_]d[/g_]. Apps also provide a way of clustering related cpabilities (e.g., the Settings app contains all the commands related to account customisation and management whilst the Admin app contains all the commands related to thread moderation). As [g]Con(phi)[/g][g_]d[/g_] development pushes its capabilities further, apps will help sort and catalog those capabilities.
+
+Apps are loaded using the "[b]>load[/b]" command and unloaded with "[b]>unload[/b]". Only one app can be loaded at a time and apps must be unloaded before another can be loaded. The bar at the top of the App Panel (bottom right) displays the name of the currently loaded app (where applicable).
+
+To see a list of available apps, run the "[b]>applist[/b]" command.

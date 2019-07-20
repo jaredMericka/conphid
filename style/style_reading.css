@@ -1,0 +1,141 @@
+
+html, body, textArea, button
+{
+	color:#000;
+	background-color:#fff;
+	/* text-shadow:0px 0px 10px #aaa; */
+}
+
+
+#listsContainer,
+#inputContainer,
+#header,
+#main,
+#system,
+#notifications
+{
+	background-color:#fff;
+}
+
+#threadName,
+#app
+{
+	background-color:#000;
+	color:#fff;
+}
+
+#app x { color:#aaa; }
+
+
+
+#main>div:hover,
+#system>div:hover,
+#bookmarks>div:hover,
+#links>div:hover,
+#feed>div:hover,
+#notifications>div:hover
+{
+	background-color:rgba(0,0,0, 0.05);
+}
+
+/*#header,*/
+#listsContainer,
+#main,
+#system,
+#notifications,
+#input
+{
+	box-shadow:
+		1px 1px 0px 0px #000 inset;
+}
+
+#submit
+{
+	color:#fff;
+	background-color:#060;
+	/*box-shadow:0px 0px 10px #aaa;*/
+}
+
+#submit:hover
+{
+	background-color:#080;
+}
+
+.comm
+{
+	color:#00f; background:none; font-weight:bold;
+	/*text-shadow:0px 0px 10px #00a;*/
+}
+
+#expand			{ color:#060; }
+#expand:hover	{ color:#5f5; }
+
+/****************************************************
+
+	OTHER STUFF
+
+****************************************************/
+
+*::selection,
+*::-moz-selection
+{
+	background-color:#000;
+	color:#fff;
+}
+
+*::-webkit-scrollbar
+{
+	background-color:#aaa;
+}
+
+*::-webkit-scrollbar-button
+{
+	background-color:#000;
+}
+
+*::-webkit-scrollbar-track
+{
+	background-color:#fff;
+}
+
+*::-webkit-scrollbar-track-piece
+{
+	background-color:#000;
+
+}
+
+*::-webkit-scrollbar-thumb
+{
+	background-color:#fff;
+}
+
+.link		{ color:#11a; background:none; text-decoration:underline; }
+.link:hover	{ color:#1aa; background:none; }
+
+r,.r,.R	{ color:#a11; background:none; font-weight:bold; }
+g,.g,.G	{ color:#1a1; background:none; font-weight:bold; }
+b,.b,.B	{ color:#11a; background:none; font-weight:bold; }
+m,.m,.M	{ color:#a1a; background:none; font-weight:bold; }
+c,.c,.C	{ color:#1aa; background:none; font-weight:bold; }
+y,.y,.Y	{ color:#aa1; background:none; font-weight:bold; }
+
+x,.x	{ color:#888; background:none; font-weight:bold; }
+w,.w	{ color:#000; background:none; font-weight:bold; }
+
+r_,.r_	{ color:#fff; background-color:#a11; border-radius:2px; /* font-weight:bold; */ }
+g_,.g_	{ color:#fff; background-color:#1a1; border-radius:2px; /* font-weight:bold; */ }
+b_,.b_	{ color:#fff; background-color:#11a; border-radius:2px; /* font-weight:bold; */ }
+m_,.m_	{ color:#fff; background-color:#a1a; border-radius:2px; /* font-weight:bold; */ }
+c_,.c_	{ color:#fff; background-color:#1aa; border-radius:2px; /* font-weight:bold; */ }
+y_,.y_	{ color:#fff; background-color:#aa1; border-radius:2px; /* font-weight:bold; */ }
+x_,.x_	{ color:#fff; background-color:#888; border-radius:2px; /* font-weight:bold; */ }
+w_,.w_	{ color:#fff; background-color:#000; border-radius:2px; /* font-weight:bold; */ }
+
+h,.h	{ color:#000; background-color:#000; border-radius:2px; }
+h *,.h * { color:#000; background-color:#000; }
+
+h:hover,.h:hover
+{ color:inherit; background-color:#aaa; }
+
+h:hover *,.h:hover *
+{ color:inherit; background-color:inherit; }

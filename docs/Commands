@@ -1,0 +1,7 @@
+[g]Commands[/g]
+
+All of [g]Con(phi)[/g][g_]d[/g_]'s capabilities are accessed via commands. To run a command, start your submission with a right-pointing chevron like this: [b]>[/b]. This will put the submission box in command mode. This will also make the text in the submission box [b]blue[/b]. The chevron should be followed by the name of the command (e.g., "[b]>load[/b]"). If the command accepts a parameter, leave a space after the command name and type out your parameter(s) (e.g., "[b]>load[/b] [c]settings[/c]").
+
+If we take the command "[b]>load[/b] [c]settings[/c]" as out example, working left to right we see the chevron ("[b]>[/b]") used to signify command mode, the command name ("[b]load[/b]") showing that we intend to run the load command and the parameter ("[c]settings[/c]") showing that when the load command is run, it should be run using the term "settings" as instructions for how it should function (or in this specific example, we ask it to load and pass in the name of the app we intend to load; this command will load the settings app).
+
+For additional help pertaining to a specific function, input the function with a question mark attached to the function name like this: "[b]>commlist?[/b]". This will display function help and show and example of usage.

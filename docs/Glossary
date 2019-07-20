@@ -1,0 +1,7 @@
+[g]Glossary of Terms[/g]
+
+[y]Hash[/y]
+A hash is a 32 character string made up of numbers 0-9 and letters a-f (hexidecimal). Hashes are used as unique IDs as the possible number of hashes is so vast that the odds of collision before the end of the world are infatasmilly small.
+
+[y]Thread[/y]
+A thread is a 

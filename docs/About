@@ -1,0 +1,74 @@
+[g] Welcome to Con(phi)[g_]d[/g_]![/g]
+
+[g]Con(phi)[/g][g_]d[/g_] is an experimental chat / forum platform. Making heavy use of md5* hashes for sorting and identification, Conphid is a new blend of familiar paradigms and experimental ideas.
+
+[g]What do I do?[/g]
+The box at the bottom is the submission box. This is where you write and submit your posts. This is also where you formulate and execute [g]Con(phi)[/g][g_]d[/g_] commands. To run a command, start your submission with a right-pointing chevron like this: [b]>[/b]. This will put the  submission box in command mode. This will also make the text in the submission box [b]blue[/b]. To see a list of commands, submit "[b]>commlist[/b]". For further help on a particular command, input the command with a question mark attached (e.g., "[b]>commlist?[/b]"). For more information on commands, visit the command help thread from the linked thread panel to the right.
+
+[g]Rules[/g]
+It is the intention of the developers that [g]Con(phi)[/g][g_]d[/g_] will endeavor to have a few rules as possible with a minimum-effective-dose approach to content moderation. Moving a thread to a hash with less exposure will always be preferred to the deletion of content. Low discoverability of non-bumped content is an important means of creating private, invitation only channels that remain open to anyone interested and we will try to utilise this effect first always.
+
+The following basic rules should still be loosely observed:
+	[b](b1)[/b] General respect is encouraged but moderator discretion is rule. You can say anything you like here but be aware of the implications of what you're saying and remember that it is written in ink.
+	[b](b1)[/b] An exact set of rules is not, in our view, appropriate at this time; engage in the same way that you would general conversation elsewhere.
+	[b](b1)[/b] Bumped threads will receive much higher exposure than non-bumped threads and so will also, by extension, gain the attention of moderators and admins.
+	[b](b1)[/b] [g]Con(phi)[/g][g_]d[/g_] does not believe in heavy moderation but will respond in an appropriate way to matters that compromise community cohesion or matters of questionable legality.
+	[b](b1)[/b] Deletion or censorship will always be secondary to moving a conversation to a place with less exposure.
+	[b](b1)[/b] Obviously this loose set of rules and minimal moderation is a model that will need to be refined and tweaked over time. We ask for you patience while the correct balance is sought.
+
+[g]The Interface[/g]
+The interface is made of of a series of panes. In order of largest to smallest, going counter-clockwise from this pane, the panes names and function are as follows:
+
+	[y]Main[/y]
+	The Main pane is where the contents of the current thread(dg) are displayed; the main chat window. The bottom of the Main pane consists of the submission box. This is where you input the body text of your post or formulate commands.
+
+	[y]App[/y]
+	The App pane displays output from Conphid apps(ddg) or system notifications (letting you know when commands succeed or fail).
+
+	[y]Notifications[/y]
+	The Notifications pane displays various account notifications including invitations by other users to threads, replies to your posts or new submissions to threads you are subscribed to.
+
+	[y]Lists[/y]
+	The lists pane consists of three sections accessible by the tabs at the bottom:
+
+		[c]Feed[/c] ([b](fed)[/b])
+		The feed is where "pinned" and "bumped" threads are listed. Pinned threads persist at the top of the list and bumped threads move down the list, replaced by subsequently bumped threads. Threads must be bumped manually; posting in a thread will not bump it automatically.
+
+		[c]Links[/c] ([w](lnk)[/w])
+		Links contains a list of links to other threads. Links should be made between threads based on related content. Accessing linked threads or using the feed is the only way to browse content on Conphid. Unlinked content outside the feed must be found with pre-existing knowledge of its location.
+
+		[c]Bookmarks[/c] ([r](bkm)[/r])
+		Bookmarks can be added to threads that you might want to revisit in the future. Bookmarks displays a list of bookmarked threads.
+
+	[y]Info Bar[/y]
+	Across the top of the page is the Info Bar. It gives you important at-a-glance information about the current thread(dg) and logged in user**.
+
+* [md5]
+(dg) [threads]
+(ddg) [apps]
+** [user]
+
+
+
+
+
+
+
+
+
+About					bf001056fdb6d253036b96f2f33f8f96
+Users					9bc65c2abec141778ffaa729489f3e87
+Threads					0919fe44fdbbd233e5e2e8587006b7b2
+Posts					18958e30bdca0cfac8256824e570a89b
+Commands				5f6bc08c46cee6f21bfcdd08aff6e8aa
+Apps					9a6dd283c3de653fbca500f9721f634f
+
+md5						1bc29b36f623ba82aaf6724fd3b16718
+
+FAQ						da75cd652254fce37e953d7f261f132d
+Privacy Policy			21cec257feb15bcc84e0acd5b0773883
+Version History			2af72f100c356273d46284f6fd1dfc08
+Planned Improvements	f867a4fdb09b251cca05d0a8937af271
+Known Issues			fe5fe0415fc3e0ff4942d8454f363d2c
+Moderator Action		418c5509e2171d55b0aee5c2ea4442b5
+Glossary				d63aadefb84d945d3faa8eaa35f5015d

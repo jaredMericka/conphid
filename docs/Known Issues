@@ -1,0 +1,8 @@
+[g]Known Issues[/g]
+
+This thread will provide a list of known issues that are in the process of being fixed. Before a bug is reported or a new feature requested, this list should be checked to make sure we aren't already working on it.
+
+[r](b1)[/r] Separate threads open in different tabs causes problems since each user can only access one thread at a time.
+[r](b1)[/r] If you don't have any bookmarks, the bookmarks tab shows "no bookmarks" twice.
+
+?t=issues

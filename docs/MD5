@@ -1,0 +1,19 @@
+[g]Md5[/g]
+
+Md5 is a popular cryptographic hash function which produces, for all intents and purposes, a 32 character long string of numbers 0-9 and letters a-f (e.g., "bf001056fdb6d253036b96f2f33f8f96").
+
+"MD" stands for "message digest" as the function "digests" a message and produces a seemingly "random" hash based on that message. An identical message will always produce an identical md5 hash but a slight change in message will completely alter the md5 hash.
+
+No matter how long or short the input is, the md5 output will always be 32 characters.
+
+[y]Examples of hashes:[/y]
+
+"[c]Conphid[/c]"	[g]bf001056fdb6d253036b96f2f33f8f96[/g]
+"[c]a[/c]"		[g]0cc175b9c0f1b6a831c399e269772661[/g]
+"[c]b[/c]"		[g]92eb5ffee6ae2fec3ad71c777531578f[/g]
+"[c]ab[/c]"		[g]187ef4436122d1cc2f40dc2b92f0eba0[/g]
+
+"[c]The quick brown fox jumps over the lazy dog[/c]"	[g]9e107d9d372bb6826bd81d3542a419d6[/g]
+"[c]The quick brown fox jumps over the lazy dog![/c]"	[g]36b728e56a99ed647bf988f3a3c6aeb8[/g]
+
+Although the md5 hashing algorithm has had flaws exposed and been "cryptographically broken", this does not compromise its usefulness in the context of [g]Con(phi)[/g][g_]d[/g_] since [g]Con(phi)[/g][g_]d[/g_] is not using md5 to encrypt data; it's only taking advantage of its high entropy to hide content and accounts behind the unfathomably low odds of guessing them.

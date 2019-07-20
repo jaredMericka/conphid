@@ -1,0 +1,25 @@
+[g]Users[/g]
+
+[g]Con(phi)[/g][g_]d[/g_] does not use the conventional username and password system. Instead, your user hash is all you need to access your account. It effectively acts as your username AND password all in one. For this reason, you should not give out your user hash to anyone. You can check your user hash with the "[b]>iam[/b]" command (as long as no parameter is given with the command). Once you have your hash, you can log in under the same hash using the "[b]>iam[/b]" command but passing in the hash as the parameter (e.g., "[b]>iam[/b] [c]0cc175b9c0f1b6a831c399e269772661[/c]"). If a non-md5-hash parameter is passed into the [b]>iam[/b] command, the string will be hashed and the resulting hash will be used. (i.e., "[b]>iam[/b] [c]a[/c]" is equivalent to "[b]>iam[/b] [c]0cc175b9c0f1b6a831c399e269772661[/c]").
+
+[r]We strongly recommend using the random hash provided to you on initial login rather than opting for the hash of some kind of word or phrase![/r]
+
+The top right corner of the screen contains information on the currently logged in user (i.e., username, level and IP address). When you first access (con) you are allocated a random hash and a random, pronounceable username.
+
+Users on [g]Con(phi)[/g][g_]d[/g_] are sorted into account levels (shown in the info bar with a [y](*)[/y]). As your account level increases, so do your privileges and accountability.
+
+[c]Account level [y](*)0[/y]:[/c]
+Account level [y](*)0[/y] is an anonymous account. It has a random hash and a random name. Simply browsing to conphid.com will grant a user with a [y](*)0[/y] account. It has almost not accountability and minimal privileges. Flood control restrictions* are high.
+
+[c]Account level [y](*)1[/y]:[/c]
+Account level [y](*)1[/y] is given to a user who has assigned a name to their hash. To do this, load the "Settings" app with the command "[b]>load[/b] [c]settings[/c]" then use the "[b]>name[/b]" command to set your desired name (e.g., "[b]>name[/b] [c]Fred[/c]"). Since an account name can only be changed once a week, this comes with an inherent amount of accountability. It also grants access to new commands, formatting options (viewable with "[b]>palette[/b]") and reduced flood control. Most account personalisation options open up including the use of hotkeys, subscriptions, bookmarks and the ability to receive invitations.
+
+[c]Account level [y](*)2[/y]:[/c]
+Account level [y](*)2[/y] is granted when you register an email address to your account. This is done by loading the "settings" app with the command "[b]>load[/b] [c]settings[/c]" and then using the "[b]>register[/b]" command to send a verification email to the nominated address (e.g., "[b]>register[/b] [c]fred@domain.com[/c]"). The verification email will contain a link which will register your email address to your user account. An account at level [y](*)2[/y] is regarded to be a full-featured account.
+
+[c]Account level [y](*)3[/y]:[/c]
+Account level [y](*)3[/y] is granted after you have made 100 posts on 100 different days. Additional commands and formatting options will be made available that will allow the user to perform light moderator duties if they see fit.
+
+Accounts levels exceeding [y](*)3[/y] are manually appointed by staff to allow for the completion of specific tasks.
+
+*Flood control restrctions refer to the minimum time that must elapse between consecutive posts.
